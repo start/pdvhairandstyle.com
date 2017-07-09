@@ -1,0 +1,181 @@
+<!doctype html>
+<html amp lang="en">
+<head>
+    <meta charset="utf-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-image-lightbox" src="https://cdn.ampproject.org/v0/amp-image-lightbox-0.1.js"></script>
+    <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+    <title>[WIP] Plein De Vie Hair &amp; Style</title>
+    <link rel="canonical" href="https://pvdhairandstyle.com" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-custom>
+        body {
+            background-color: white;
+            font: 1em/1.6 -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        #main-content {
+            margin: 0 auto;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 130%;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 110%;
+            margin-top: 0;
+        }
+        
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            background-color: #e6e6e6;
+            font-size: 100%;
+            font-weight: normal;
+            margin: 15px 0 0 0;
+            padding: 15px 25px;
+            text-transform: uppercase;
+        }
+
+        p {
+            padding: 0 15px;
+        }
+
+        amp-img.grey-placeholder {
+            background-color: grey;
+        }
+
+        amp-img.portrait {
+             border-radius: 50%;
+        }
+
+        address {
+            font-size: 80%;
+            font-style: normal;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #stylists {
+            display: flex;    
+            justify-content: space-around;
+            margin: 0 20px;
+        }
+
+        address,
+        #stylists > div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        [placeholder] {
+            text-align: center;
+        }
+
+        a {
+            color: black;
+        }
+
+        a[href^="tel"] {
+            font-size: 80%;
+            text-decoration: none;
+        }
+
+        #stylists [role="button"],
+        .amp-carousel-button {
+            box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+            background-color: #008080;
+            border-radius: 3px;
+            color: #fff;
+            cursor: pointer;
+            display: inline-block;
+            font-size: 75%;
+            margin: 10px 0;
+            padding: 7px 12px 5px;
+            text-transform: uppercase;
+            text-decoration: none;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            white-space: nowrap;
+        }
+
+        #stylists [role="button"] {
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plein De Vie</h1>
+    <h2>Hair &amp; Style</h2>
+    <address>
+        <div>10001 S IH-35 (#200)</div>
+        <div>Austin, TX 78747</div>
+    </address>
+    <div id="main-content">
+        <div id="stylists">
+            <div>
+                <amp-img alt="Tania" src="assets/tania/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
+                <a href="https://book.pocketsuite.io/book/WYKK" role="button">Book Tania</a>
+                <a href="tel:+1(512)359-3169">(512) 359-3169</a>
+                <a href="https://instagram.com/tastesliketania">See her style</a>
+            </div>
+            <div>
+                <amp-img alt="Diana" src="assets/diana/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
+                <a href="https://book.pocketsuite.io/book/WYfR" role="button">Book Diana</a>
+                <a href="tel:+1(512)943-0741">(512) 943-0741</a>
+                <a href="https://instagram.com/dianaduran1515">See her style</a>
+            </div>
+        </div>
+
+        <h3>About us</h3>
+        <amp-carousel controls type="carousel" height="150" layout="fixed-height">
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/1.jpg" width="141" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/1.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/2.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/2.jpg" width="127" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/3.jpg" width="143" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/3.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/4.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/4.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/5.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/5.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/6.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+            <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/6.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
+        </amp-carousel>
+        <amp-image-lightbox id="style-lightbox" layout="nodisplay"></amp-image-lightbox>
+
+        <div id="about">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            </p>
+            <p>
+                We are open from 9am to 7pm every day. Please see our stylists‘ booking pages for specific availability.
+            </p>
+        </div>
+
+        <h3>Our location</h3>
+        <amp-iframe
+            height="300"
+            layout="fixed-height"
+            sandbox="allow-scripts allow-same-origin allow-popups"
+            frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA5woZ1VufT8CXr0Vfkl60F05OaRk0gFpc&q=10001+S.+IH-35+Austin+TX+78747&zoom=14">
+            <div placeholder>
+                <a href="https://www.google.com/maps?ll=30.156607,-97.789637&z=14&t=m&hl=en-US&gl=US&mapclient=embed&q=10001+S+IH+35+Frontage+Rd+Austin,+TX+78747">View in Google Maps</a>
+            </div>
+        </amp-iframe>
+    </div>
+</body>
+</html>
