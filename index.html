@@ -60,14 +60,14 @@
         address {
             font-size: 80%;
             font-style: normal;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             text-align: center;
         }
 
         #stylists {
             display: flex;    
             justify-content: space-around;
-            margin: 0 20px;
+            margin: 0 20px 25px 20px;
         }
 
         address,
@@ -126,20 +126,24 @@
     <div id="main-content">
         <div id="stylists">
             <div>
-                <amp-img alt="Tania" src="assets/tania/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
-                <a href="https://book.pocketsuite.io/book/WYKK" role="button">Book Tania</a>
+                <a href="https://instagram.com/tastesliketania">
+                    <amp-img alt="Tania" src="assets/tania/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
+                    See her style
+                </a>
                 <a href="tel:+1(512)359-3169">(512) 359-3169</a>
-                <a href="https://instagram.com/tastesliketania">See her style</a>
+                <a href="https://book.pocketsuite.io/book/WYKK" role="button">Book Tania</a>
             </div>
             <div>
-                <amp-img alt="Diana" src="assets/diana/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
-                <a href="https://book.pocketsuite.io/book/WYfR" role="button">Book Diana</a>
+                <a href="https://instagram.com/dianaduran1515">
+                    <amp-img alt="Diana" src="assets/diana/portrait.jpg" class="portrait" width="90" height="90" layout="responsive"></amp-img>
+                    See her style
+                </a>
                 <a href="tel:+1(512)943-0741">(512) 943-0741</a>
-                <a href="https://instagram.com/dianaduran1515">See her style</a>
+                <a href="https://book.pocketsuite.io/book/WYfR" role="button">Book Diana</a>
             </div>
         </div>
 
-        <h3>About us</h3>
+        <h3>Our style</h3>
         <amp-carousel controls type="carousel" height="150" layout="fixed-height">
             <amp-img alt="Style example" on="tap:style-lightbox" src="assets/tania/1.jpg" width="141" height="150" role="button" tabindex="0"></amp-img>
             <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/1.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
@@ -155,15 +159,13 @@
             <amp-img alt="Style example" on="tap:style-lightbox" src="assets/diana/6.jpg" width="150" height="150" role="button" tabindex="0"></amp-img>
         </amp-carousel>
         <amp-image-lightbox id="style-lightbox" layout="nodisplay"></amp-image-lightbox>
-
-        <div id="about">
-            <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
-            </p>
-            <p>
-                We are open from 9am to 7pm every day. Please see our stylists‘ booking pages for specific availability.
-            </p>
-        </div>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+        </p>
+        <p>
+            We are open from 9am to 7pm every day. Please see our stylists‘ booking pages for specific availability.
+        </p>
 
         <h3>Our location</h3>
         <amp-iframe
