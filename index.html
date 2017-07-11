@@ -64,6 +64,10 @@
             text-align: center;
         }
 
+        address a {
+            text-decoration: none;
+        }
+
         #stylists {
             display: flex;    
             justify-content: space-around;
@@ -120,8 +124,10 @@
     <h1>Plein De Vie</h1>
     <h2>Hair &amp; Style</h2>
     <address>
-        <div>10001 S IH-35 (#200)</div>
-        <div>Austin, TX 78747</div>
+        <a href="#map">
+            <div>10001 S IH-35 (#200)</div>
+            <div>Austin, TX 78747</div>
+        </a>
     </address>
     <div id="main-content">
         <div id="stylists">
@@ -161,13 +167,22 @@
         <amp-image-lightbox id="style-lightbox" layout="nodisplay"></amp-image-lightbox>
         
         <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
+            Plein De Vie was founded in 2017 by Tania Rodriguez and Diana Duran. We both have a love for beauty and style that eventually led us to the Aveda Institute in 2013 where we first met.
         </p>
+
+        <p>
+            We‘re primarily known for our color work with balayage, color melt, ombre, and highlights, but we also deliver a range of other services such as extensions, waxing, makeup, special event styling, and Brazilian blowouts.
+        </p>
+
+        <p>
+            Our salon may be small, but we always make sure all our clients feel welcomed and are well taken care of.
+        </p>
+
         <p>
             We are open from 9am to 7pm every day. Please see our stylists‘ booking pages for specific availability.
         </p>
 
-        <h3>Our location</h3>
+        <h3 id="map">Our location</h3>
         <amp-iframe
             height="300"
             layout="fixed-height"
